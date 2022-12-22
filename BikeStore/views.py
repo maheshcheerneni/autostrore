@@ -32,4 +32,6 @@ class bike_detailed(mixins.CreateModelMixin,
 # ON DELETE DATA
     def delete(self,request,*args, **kwargs):
         return self.delete(request,*args, **kwargs)
+
+
     

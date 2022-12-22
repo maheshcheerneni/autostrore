@@ -21,5 +21,6 @@ urlpatterns = [
     path('caritems/', include('caritems.urls')),
     path('api-auth/', include('rest_framework.urls')),
     path('bike/', include('BikeStore.urls')),
+   
 
 ]

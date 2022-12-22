@@ -1,4 +1,4 @@
-from django.db import models
+from django.db import models 
 
 # Create your models here.
 class Bike(models.Model):
@@ -14,7 +14,7 @@ class Bikemodels(models.Model):
     mileage = models.CharField(max_length=50)
     tank_capacity=models.CharField(max_length=50)
     fuel_type = models.CharField(max_length=50)
-    launch_Date = models.DateField()
+    launch_Date = models.TextField(max_length=100)
     description = models.TextField(max_length=100)
     def __str__(self):
         return self.Bike_model
